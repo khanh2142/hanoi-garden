@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -15,12 +19,33 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.cart__container:hover .cart__item {
+  animation: cart 1s linear infinite;
+}
+
+.cart__container:hover ~ .cart__title {
+  animation: cart-title 0.5s linear;
+  right: 0;
+}
+
+.cart__title {
+  right: -192px;
+}
+
+@keyframes cart {
+  0% {
+    translate: -50px;
   }
-  body {
-    color: white;
-    background: black;
+  100% {
+    translate: 50px;
+  }
+}
+
+@keyframes cart-title {
+  from {
+    right: -192px;
+  }
+  to {
+    right: 0;
   }
 }
