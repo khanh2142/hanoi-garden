@@ -7,7 +7,7 @@ const Advertise = () => {
   return (
     <div className="mx-auto flex">
       <Carousel
-        className="w-3/4 rounded-l-lg overflow-hidden"
+        className="w-3/4 rounded-l-lg overflow-hidden shadow-lg"
         autoPlay={true}
         infiniteLoop={true}
         interval={2000}
@@ -47,11 +47,11 @@ const Advertise = () => {
         </div>
       </Carousel>
 
-      <div className="flex flex-col h-80 w-1/4">
+      <div className="flex flex-col h-80 w-1/4 shadow-lg rounded-r-lg">
         <div className="h-40 flex items-center px-5 bg-sky-200 rounded-tr-lg">
           <div
             style={{ backgroundImage: `url(${banner1.src})` }}
-            className="w-28 h-28 bg-contain bg-no-repeat ease-linear duration-300 hover:scale-125"
+            className="w-28 h-28 bg-contain bg-no-repeat ease-linear duration-300 animate-zoomInOut"
           />
           <div className="text-center w-full text-2xl">
             Hoa đẹp nhất <br />
@@ -66,7 +66,7 @@ const Advertise = () => {
 
           <div
             style={{ backgroundImage: `url(${banner2.src})` }}
-            className="w-28 h-28 bg-contain bg-no-repeat ease-linear duration-300 hover:scale-125"
+            className="w-28 h-28 bg-contain bg-no-repeat ease-linear duration-300 animate-zoomInOut"
           />
         </div>
       </div>

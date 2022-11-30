@@ -14,7 +14,7 @@ const FeatureProduct = () => {
           alt="Hot Product"
           width={40}
           height={40}
-          className="ease-linear duration-700 hover:rotate-[360deg]"
+          className="ease-linear duration-700 animate-zoomInOut"
         />
       </div>
       <div className="grid grid-cols-2 gap-5">
@@ -62,7 +62,7 @@ const FeatureProduct = () => {
               "url(https://bizweb.dktcdn.net/thumb/1024x1024/100/347/446/products/gio-hoa-hong-mau-hong-kem-pastel.jpg?v=1593947674807)",
             backgroundPosition: "40% 40%",
           }}
-          className="h-64 w-full bg-no-repeat bg-cover rounded-lg shadow-lg"
+          className="h-64 w-full bg-no-repeat bg-cover rounded-lg shadow-lg "
         ></div>
       </div>
     </div>

@@ -1,15 +1,19 @@
 import Advertise from "./Advertise";
+import Category from "./Category";
 import FeatureProduct from "./FeatureProduct";
 import Header from "./Header";
+import ListProduct from "./ListProduct";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
       <Advertise />
       <FeatureProduct />
-      <div>Home</div>
-    </div>
+      <Category />
+      <ListProduct />
+      <div className="mt-96">Home</div>
+    </>
   );
 };
 
