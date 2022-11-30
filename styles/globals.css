@@ -46,11 +46,6 @@ a {
 
 .cart__container:hover ~ .cart__title {
   animation: cart-title 0.5s linear;
-  right: 0;
-}
-
-.cart__title {
-  right: -192px;
 }
 
 @keyframes cart {

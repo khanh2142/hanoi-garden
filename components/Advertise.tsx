@@ -5,7 +5,7 @@ import banner2 from "../public/images/flower-banner-2.png";
 
 const Advertise = () => {
   return (
-    <div className="mx-auto flex">
+    <div className="mx-auto flex mt-20">
       <Carousel
         className="w-3/4 rounded-l-lg overflow-hidden shadow-lg"
         autoPlay={true}
