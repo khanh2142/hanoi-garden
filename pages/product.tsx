@@ -1,5 +1,7 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
+import ProductContainer from "../components/ProductContainer";
 
 const Product = () => {
   return (
@@ -11,6 +13,10 @@ const Product = () => {
       </Head>
 
       <Header />
+
+      <ProductContainer />
+
+      <Footer />
     </div>
   );
 };
