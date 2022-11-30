@@ -22,13 +22,13 @@ const FeatureProduct = () => {
           <p className="text-2xl capitalize font-bold text-pink-400">
             hồng kem pastel
           </p>
-          <span>
+          <desc className="italic">
             "Hạnh phúc đôi khi không được tính bằng năm, bằng tháng mà hạnh phúc
             có thể đong đầy dù trong một khoảnh khắc. Hãy gửi đến người bạn yêu
             thương nhất những khoảnh khắc chứa đựng đầy yêu thương nhé. Bó hoa
             gồm tông màu hồng lãng mạn của hồng kem kết hợp với vẻ đẹp đầy đáng
             yêu của thạch thảo trắng."
-          </span>
+          </desc>
 
           <div className="flex gap-5">
             <button className="bg-red-400 p-2 rounded-sm flex gap-2 items-center text-white font-bold uppercase group hover:bg-red-600 ease-linear duration-200 shadow-lg">

@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import ProductContainer from "../components/ProductContainer";
 
 const Product = () => {
@@ -12,11 +10,7 @@ const Product = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
-
       <ProductContainer />
-
-      <Footer />
     </div>
   );
 };
