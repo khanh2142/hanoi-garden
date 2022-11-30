@@ -24,8 +24,8 @@ const Home = () => {
           images: [
             {
               url: wallpaper.src,
-              width: 800,
-              height: 600,
+              width: 300,
+              height: 300,
               alt: "Ha Noi Garden",
               type: "image/png",
             },
