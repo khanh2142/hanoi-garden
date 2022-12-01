@@ -4,7 +4,20 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import banner1 from "public/images/flower-banner-1.png";
 import banner2 from "public/images/flower-banner-2.png";
 
+import { useEffect, useState } from "react";
+import api from "../../../data/carousels.json";
+
 const Advertise = () => {
+  const [data, setData] = useState([] as any);
+
+  const getData = async () => {
+    await setData(api);
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className="mx-auto flex mt-20">
       <Carousel
@@ -14,38 +27,17 @@ const Advertise = () => {
         interval={2000}
         showThumbs={false}
       >
-        <div>
-          <img
-            src="https://dienhoathudo.com/wp-content/uploads/2022/01/banner-4.jpg"
-            alt="Cánh đồng hoa"
-            className="h-80 object-cover object-center"
-          />
-        </div>
-        <div>
-          <img
-            src="https://dienhoathudo.com/wp-content/uploads/2022/01/banner-6.jpg"
-            className="h-80 object-cover object-center"
-          />
-        </div>
-        <div>
-          <img
-            src="https://dc.flowercorner.vn/uploads/P62ff2f312a2af5.69604601_banner-4.jpg"
-            className="h-80 object-cover object-center"
-          />
-        </div>
-        <div>
-          <img
-            src="https://dc.flowercorner.vn/uploads/P62ff2f07d116a2.71972535_banner-2.jpg"
-            className="h-80 object-cover object-center"
-          />
-        </div>
-
-        <div>
-          <img
-            src="https://dc.flowercorner.vn/uploads/P635f466ebc2e99.20900402_banner%201%20copy.jpg"
-            className="h-80 object-cover object-center"
-          />
-        </div>
+        {data.map((item: any) => {
+          return (
+            <div>
+              <img
+                src={item.image}
+                alt={item.desc}
+                className="h-80 object-cover object-center"
+              />
+            </div>
+          );
+        })}
       </Carousel>
 
       <div className="flex flex-col h-80 w-1/4 shadow-lg rounded-r-lg">

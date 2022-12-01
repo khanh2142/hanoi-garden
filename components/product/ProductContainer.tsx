@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import flowerIcon2 from "../public/images/flower-list-2.png";
-import flowerIcon3 from "../public/images/flower-list-3.png";
-import flowerIcon4 from "../public/images/flower-list-4.png";
-import flowerIcon5 from "../public/images/flower-list-5.png";
-import flowerIcon6 from "../public/images/flower-list-6.png";
+import flowerIcon2 from "public/images/flower-list-2.png";
+import flowerIcon3 from "public/images/flower-list-3.png";
+import flowerIcon4 from "public/images/flower-list-4.png";
+import flowerIcon5 from "public/images/flower-list-5.png";
+import flowerIcon6 from "public/images/flower-list-6.png";
 import ProductCard from "./components/ProductCard";
 
 const ProductContainer = () => {
