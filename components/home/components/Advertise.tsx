@@ -1,7 +1,8 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import banner1 from "../public/images/flower-banner-1.png";
-import banner2 from "../public/images/flower-banner-2.png";
+
+import banner1 from "public/images/flower-banner-1.png";
+import banner2 from "public/images/flower-banner-2.png";
 
 const Advertise = () => {
   return (

@@ -1,12 +1,12 @@
 import { NextSeo } from "next-seo";
-import Advertise from "./Advertise";
-import Category from "./Category";
-import Comment from "./Comment";
-import FeatureProduct from "./FeatureProduct";
-import ListProduct from "./ListProduct";
-import Recommend from "./Recommend";
+import Advertise from "./components/Advertise";
+import Category from "./components/Category";
+import Comment from "./components/Comment";
+import FeatureProduct from "./components/FeatureProduct";
+import ListProduct from "./components/ListProduct";
+import Recommend from "./components/Recommend";
 
-import wallpaper from "../public/images/wallpaper.png";
+import wallpaper from "../../public/images/wallpaper.png";
 
 const Home = () => {
   return (

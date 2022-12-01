@@ -22,6 +22,8 @@ const DetailProduct = () => {
 
   const [quantity, setQuantity] = useState(1);
 
+  const [relationList, setRelationList] = useState([1, 2, 3, 4, 5]);
+
   const [loading, setLoading] = useState(true);
 
   function numberWithCommas(x: any) {
@@ -111,6 +113,7 @@ const DetailProduct = () => {
               <h3 className="text-center text-2xl font-bold text-rose-500">
                 Có thể bạn cũng thích
               </h3>
+              <div className="grid grid-cols-4"></div>
             </div>
           </div>
         ) : (

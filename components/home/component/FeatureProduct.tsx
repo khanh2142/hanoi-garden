@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import cartIcon from "../public/images/cart-flower-icon.png";
-import hotIcon from "../public/images/hot-icon.png";
-import purchaseIcon from "../public/images/purchase-icon.png";
+import cartIcon from "public/images/cart-flower-icon.png";
+import hotIcon from "public/images/hot-icon.png";
+import purchaseIcon from "public/images/purchase-icon.png";
 
 const FeatureProduct = () => {
   return (

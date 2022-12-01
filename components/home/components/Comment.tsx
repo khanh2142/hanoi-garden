@@ -1,5 +1,5 @@
-import rateIcon2 from "../public/images/rate-icon-3.png";
-import rateIcon from "../public/images/rate-icon.png";
+import rateIcon2 from "public/images/rate-icon-3.png";
+import rateIcon from "public/images/rate-icon.png";
 
 const Comment = () => {
   return (

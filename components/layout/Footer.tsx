@@ -1,21 +1,22 @@
 import Image from "next/image";
-import footerIcon1 from "../public/images/footer-icon-1.png";
-import footerIcon2 from "../public/images/footer-icon-2.png";
-import footerIcon3 from "../public/images/footer-icon-3.png";
-import policyIcon1 from "../public/images/policy-icon-1.png";
-import policyIcon2 from "../public/images/policy-icon-2.png";
-import policyIcon3 from "../public/images/policy-icon-3.png";
-import policyIcon4 from "../public/images/policy-icon-4.png";
 
-import socialIcon1 from "../public/images/social-icon-1.png";
-import socialIcon2 from "../public/images/social-icon-2.png";
-import socialIcon3 from "../public/images/social-icon-3.png";
+import footerIcon1 from "../../public/images/footer-icon-1.png";
+import footerIcon2 from "../../public/images/footer-icon-2.png";
+import footerIcon3 from "../../public/images/footer-icon-3.png";
+import policyIcon1 from "../../public/images/policy-icon-1.png";
+import policyIcon2 from "../../public/images/policy-icon-2.png";
+import policyIcon3 from "../../public/images/policy-icon-3.png";
+import policyIcon4 from "../../public/images/policy-icon-4.png";
 
-import logo from "../public/images/logo.png";
+import socialIcon1 from "../../public/images/social-icon-1.png";
+import socialIcon2 from "../../public/images/social-icon-2.png";
+import socialIcon3 from "../../public/images/social-icon-3.png";
+
+import logo from "../../public/images/logo.png";
 
 const Footer = () => {
   return (
-    <div className="border-t-2 mt-20 pt-10 mx-auto pb-32">
+    <footer className="border-t-2 mt-20 pt-10 mx-auto pb-32">
       <div className="h-32 grid grid-cols-4 gap-4">
         <div className="flex flex-col gap-4">
           <a href="/" className="flex items-center gap-2 font-semibold text-lg">
@@ -170,7 +171,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

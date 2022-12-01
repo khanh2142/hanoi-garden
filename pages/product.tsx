@@ -1,5 +1,5 @@
 import Head from "next/head";
-import ProductContainer from "../components/ProductContainer";
+import ProductContainer from "../components/product/ProductContainer";
 
 const Product = () => {
   return (

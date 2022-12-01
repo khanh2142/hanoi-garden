@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Hoa tình yêu",
+    "type": "hoa_tinh_yeu",
+    "image": "https://www.flowercorner.vn/image/catalog/hoa-tinh-yeu.webp",
+    "color": "pink-400"
+  },
+  {
+    "name": "Hoa sinh nhật",
+    "type": "hoa_sinh_nhat",
+    "image": "https://www.flowercorner.vn/image/catalog/hoa-sinh-nhat.webp",
+    "color": "rose-600"
+  },
+  {
+    "name": "Hoa cưới",
+    "type": "hoa_cuoi",
+    "image": "https://www.flowercorner.vn/image/catalog/hoa-cam-tay-co-dau.webp",
+    "color": "amber-500"
+  },
+  {
+    "name": "Hoa khai trương",
+    "type": "hoa_khai_truong",
+    "image": "https://www.flowercorner.vn/image/catalog/hoa-khai-truong.webp",
+    "color": "sky-500"
+  },
+  {
+    "name": "Hoa chia buồn",
+    "type": "hoa_chia_buon",
+    "image": "https://www.flowercorner.vn/image/catalog/hoa-tang-le.webp",
+    "color": "purple-500"
+  }
+]

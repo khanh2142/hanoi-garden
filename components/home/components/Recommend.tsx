@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Recommend1 from "../public/images/recommend-1.png";
-import Recommend2 from "../public/images/recommend-2.png";
-import Recommend3 from "../public/images/recommend-3.png";
+import Recommend1 from "public/images/recommend-1.png";
+import Recommend2 from "public/images/recommend-2.png";
+import Recommend3 from "public/images/recommend-3.png";
 
 const Recommend = () => {
   return (

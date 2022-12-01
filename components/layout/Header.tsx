@@ -1,10 +1,10 @@
 import Image from "next/image";
-import cart from "../public/images/cart-icon.png";
-import logo from "../public/images/logo.png";
+import cart from "../../public/images/cart-icon.png";
+import logo from "../../public/images/logo.png";
 
 const Header = () => {
   return (
-    <div className="mx-auto w-full px-20 fixed z-50 bg-sky-200 right-0 top-0 py-2 shadow-lg">
+    <header className="mx-auto w-full px-20 fixed z-50 bg-sky-200 right-0 top-0 py-2 shadow-lg">
       <div className="flex items-center justify-between border-gray-100">
         <div className="flex">
           <a href="/" className="flex items-center gap-2 font-semibold text-lg">
@@ -58,7 +58,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
