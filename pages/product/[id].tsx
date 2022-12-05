@@ -1,9 +1,13 @@
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import ProductCard from "../../components/product/components/ProductCard";
 import api from "../../data/products.json";
 
 import errorIcon from "../../public/images/404-icon.png";
+
+import flowerIcon2 from "public/images/flower-list-2.png";
+import { numberWithCommas } from "../../service/numberWithCommas";
 
 export interface Product {
   id: number;
@@ -22,13 +26,9 @@ const DetailProduct = () => {
 
   const [quantity, setQuantity] = useState(1);
 
-  const [relationList, setRelationList] = useState([1, 2, 3, 4, 5]);
-
   const [loading, setLoading] = useState(true);
 
-  function numberWithCommas(x: any) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-  }
+  const [relativeData, setRelativeData] = useState([] as any);
 
   const getData = async (id: any) => {
     const findData = await api.find((item: Product) => {
@@ -46,10 +46,57 @@ const DetailProduct = () => {
 
   useEffect(() => {
     getData(id);
+
+    let arr: any[] = [];
+
+    for (let i: any = 0; i < 4; i++) {
+      arr.push({
+        id: i,
+        name: "Hồng phun xanh đương",
+        price: 100000,
+        image:
+          "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Mar_2021/Only%20You-500x500.jpg",
+        type: "hoa_tinh_yeu",
+      });
+    }
+
+    setRelativeData(arr);
   }, [id]);
 
   const handleChangeValue = (e: any) => {
     setQuantity(Number(e.target.value));
+  };
+
+  const addToCart = (id: any) => {
+    const currentProduct = { id: id, quantity: quantity };
+
+    const local: any = localStorage.getItem("products");
+
+    const localProducts: any = JSON.parse(local);
+
+    const arr: any[] = [];
+
+    arr.push(currentProduct);
+
+    if (!localProducts) {
+      localStorage.setItem("products", JSON.stringify(arr));
+    } else {
+      const dummyArr: any[] = [...localProducts];
+
+      localStorage.setItem(
+        "products",
+        JSON.stringify(
+          dummyArr.map((item: any) => {
+            if (item.id === id) {
+              item.quantity = item.quantity + quantity;
+            }
+            return item;
+          })
+        )
+      );
+    }
+
+    console.log(localProducts);
   };
 
   return (
@@ -99,7 +146,10 @@ const DetailProduct = () => {
                     }}
                   />
 
-                  <button className="text-white bg-yellow-500 p-2 active:scale-105 hover:bg-yellow-600 ease-linear duration-300 hover:shadow-lg hover:shadow-yellow-400">
+                  <button
+                    className="text-white bg-yellow-500 p-2 active:scale-105 hover:bg-yellow-600 ease-linear duration-300 hover:shadow-lg hover:shadow-yellow-400"
+                    onClick={() => addToCart(data.id)}
+                  >
                     Thêm vào giỏ hàng
                   </button>
                   <button className="bg-rose-500 p-2 text-white active:scale-105 hover:bg-rose-600 ease-linear duration-300 hover:shadow-lg hover:shadow-rose-400">
@@ -113,7 +163,19 @@ const DetailProduct = () => {
               <h3 className="text-center text-2xl font-bold text-rose-500">
                 Có thể bạn cũng thích
               </h3>
-              <div className="grid grid-cols-4"></div>
+              <div className="grid grid-cols-4 gap-6 mt-20">
+                {relativeData.map((item: any, index: any) => {
+                  return (
+                    <ProductCard
+                      data={item}
+                      tabIndex={index + 1}
+                      color="rose-600"
+                      imageHover={flowerIcon2}
+                      key={item.id}
+                    />
+                  );
+                })}
+              </div>
             </div>
           </div>
         ) : (
