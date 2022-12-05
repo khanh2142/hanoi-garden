@@ -1,10 +1,131 @@
+
 [
   {
     "id": 1,
-    "image": " https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/June%202022/BOUQUET-4169-500x500.jpg",
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/June%202022/BOUQUET-4169-500x500.jpg",
     "name": "Bó Hoa Cúc Tana",
     "description": "Bó hoa Hạ về được thiết kế từ những bông hoa cúc Tana nhỏ xinh, loài hoa tượng trưng cho tình yêu chân thành, sẽ là sự lựa chọn hoàn hảo để dành tặng vợ hoặc bạn gái trong ngày lễ tình nhân và trong những dịp đặc biệt. Những bông hoa cúc tana nhỏ xinh chẳng những mang trong mình một vẻ đẹp dễ thương với màu trắng thuần khiết, mà còn ẩn chứa những ý nghĩa vô cùng sâu sắc. Tuy có vẻ ngoài mỏng manh, nhưng những bông hoa cúc tana lại là một trong những loài hoa tượng trưng cho sự tự tin và mạnh mẽ. Thông điệp của những bông hoa cúc tana là “Dù cho có khó khăn, hãy luôn tự tin, giữ ý chí và may mắn sẽ đến dẫn đường bạn đến một tương lai tươi sáng và tốt đẹp”. Hoa cúc tana cũng là loài hoa tượng trưng cho vẻ đẹp bình dị, thuần khiết và đáng yêu của những cô gái. Bên cạnh đó, hoa cúc tana cũng tượng trưng cho tình yêu bình dị và cao thượng. Một bó hoa cúc tana sẽ là sự lựa chọn hoàn hảo để dành tặng cho người yêu, bạn bè hay đồng nghiệp trong những dịp như sinh nhật, ngày 8-3 hay trong những dịp đặc biệt trong năm.",
     "price": 500000,
     "type": "hoa_tinh_yeu"
-  }
+  },
+  {
+      "id": 2,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh sua/June_2021/The Hope-500x500.jpg",
+      "name": "The Hope",
+      "description": "The Hope như một niềm tin vào ngày mai tươi sáng, hướng về phía trước, như đúng ý nghĩa của Hoa Hướng Dương đem lại. Dẫu cho ngày hôm nay có tối tăm mịt mờ, mặt trời vẫn lên, và ta vẫn đi tiếp.",
+      "price": 350000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 3,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Product_March/luon-ben-em-500x500.jpg",
+      "name": "Luôn Bên Em",
+      "description": "Giữa cuộc sống với bao nhiêu khó khăn, căng thẳng và tấp nập, một chút nhẹ nhàng, hồn nhiên của đóa hồng đỏ chắc chắn sẽ mang đến niềm vui khó tả cho một ai đó. Sống chậm lại và yêu thương nhiều hơn, chia sẻ nhiều hơn và quan tâm nhiều hơn, hãy để bó hồng này giúp bạn gửi đi thông điệp đó nhé.",
+      "price": 500000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 4,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh sua/Jan 2022/BOUQUET-4175-500x500.jpg",
+      "name": "Yêu Kiều",
+      "description": "Hạnh phúc đôi khi không được tính bằng năm, bằng tháng mà hạnh phúc có thể đong đầy dù trong một khoảnh khắc. Hãy gửi đến người bạn yêu thương nhất những khoảnh khắc chứa đựng đầy yêu thương nhé. Bó hoa gồm tông màu hồng lãng mạn của hồng kem kết hợp với vẻ đẹp đầy đáng yêu của thạch thảo trắng.",
+      "price": 550000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 5,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New-July/Bo Hoa Tinh Yeu-500x500.jpg",
+      "name": "First Date",
+      "description": "Bó hoa Tình Yêu được thiết kế theo tông màu chủ đạo là màu hồng kem nhẹ nhàng. Được kết hợp cùng lớp giấy gói xinh xắn tạo nên sự hài hòa, sang trọng và quý phái. Đây sẽ là 1 món quà ý nghĩa dành tặng đến những người bạn yêu thương nhất.",
+      "price": 540000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 6,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New-July/ngay-tinh-khoi-500x500.jpg",
+      "name": "Ngày Tinh Khôi",
+      "description": "Sắc hồng nhẹ nhàng thể hiện sự thuần khiết, tinh khôi. Một bó hồng kem pastel ngọt ngào được tô điểm thêm bởi tú cầu xinh xắn, được kết hợp khéo léo, nhẹ nhàng cùng tông giấy xanh nhạt sẽ giúp cho ai đó biết được tình cảm của bạn dành cho họ là trong sáng, thật tâm như chính màu sắc của những đóa hồng. Bó hoa còn thích hợp gửi tặng người thân, bạn bè, hay thậm chí là đối tác như lời cám ơn, lời chúc mừng thật tâm nhất đến với họ.",
+      "price": 660000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 7,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh sua/Oct_2021/Điều Lãng Mạn-500x500.jpg",
+      "name": "Hồng Dịu Dàng",
+      "description": "Có khi nhớ lắm một nụ cười ai đó nhưng ngại ngùng không muốn nói, có khi cần lắm một bàn tay ấm áp dịu dàng nhưng lại ở quá xa, có khi yêu lắm một ánh nhìn đầy đáng yêu, lãng mạn. Những giây phút ấy hẳn sẽ không bao giờ có thể quên, vì vật hãy tạo thêm những giây phút yêu đầu đầy hạnh phúc và bất ngờ cho người bạn yêu nhé. Tặng ngay cho người ấy một bó hoa lãng mạn với 15 hồng kem pastel thật ngọt ngào này nha.",
+      "price": 590000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 8,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Feb/JPG/BOUQUET4216_June-500x500.jpg",
+      "name": "Chung Đôi",
+      "description": "Bó hoa gồm 50 hồng đỏ gồm những cánh hồng tươi rực rỡ nhất được gói theo tông giấy hồng dễ thương như một lời nhắn trao gửi yêu thương đầy chân thành nhất. Giữa cuộc sống đầy thử thách, một chút chia sẻ, trao gửi yêu thương nhất định sẽ làm ấm lòng và tiếp thêm sức mạnh cho bạn ấy đấy.",
+      "price": 1310000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 9,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Jul/ARRANG-4263-500x500.jpg",
+      "name": "Lẵng Hoa Hạnh Phúc",
+      "description": "Có ai mà không ngập tràn hạnh phúc khi nhận được một món quà trong ngày sinh nhật hoặc một món quà ngạc nhiên vào một ngày thường nhật. Gửi đến bạn bè, người yêu, thầy cô, gia đình hay những người quan trọng đã nâng đỡ bạn qua những khó khăn trong cuộc sống 1 lẵng hoa thật đẹp nha. Lẵng hoa được kết hợp giữa hồng đỏ đẹp kiêu sa cùng cát tường trắng tươi xinh cùng những hoa lá phụ khác.",
+      "price": 1140000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 10,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Product_March/FC_bouquets-4200-500x500.jpg",
+      "name": "Riêng Mình Em",
+      "description": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất.",
+      "price": 630000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 11,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Feb/JPG/BOUQUET4287_June-500x500.jpg",
+      "name": "Màu Tình Yêu",
+      "description": "Không có một màu sắc nào tuyệt vời hơn để thể hiện sự nồng cháy của tình yêu bằng màu đỏ. Với thiết kế nhẹ nhàng nhưng ấn tượng từ những cánh hồng đỏ đầy lãng mạn, gói giấy một cách cẩn thận, đây sẽ là một bó hoa tuyệt vời thay bạn bày tỏ tình yêu. Đừng đợi chờ bạn nhé, hãy thể hiện ngay lời yêu thương thầm kín nhất đến với người ấy cùng Flower Corner nhé.",
+      "price": 525000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 12,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh sua/July_2021/Nụ Hoa Hé Mở-500x500.jpg",
+      "name": "Nụ Hoa Hé Mở (Mẫu Đơn)",
+      "description": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh sua/July_2021/Nụ Hoa Hé Mở-500x500.jpg",
+      "price": 1050000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 13,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/Nov 2022/hoa-sinh-nhat-09-500x500.png",
+      "name": "Duy nhất",
+      "description": "1 bông hồng tượng trưng cho thông điệp  anh chỉ yêu và yêu mỗi em. Đóa hoa hồng gồm 1 bông hồng đỏ rực nổi bật giữa những bông hoa bi nhỏ xinh sẽ là một lời nhắn gửi đầy ngọt ngào mà tinh tế đến người mà bạn thầm thương từ lâu rồi đấy. Hãy nói yêu đi đừng chờ đợi bạn nhé, hãy cho người ấy thấy bạn trân trọng họ đến nhường nào.",
+      "price": 500000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 14,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh sua/July_2021/YÊU HAY KHÔNG YÊU-500x500.jpg",
+      "name": "YÊU HAY KHÔNG YÊU",
+      "description": "Bó hoa Kitkat cực trendy dành tặng những cô nàng cá tính, hiện đại. Một chút ngọt ngào từ những cành hoa, một chút ngọt ngào từ những thanh kẹo Kitkat, đây chắc chắn là món quà vô cùng ấn tượng bạn dành tặng cho người mình luôn yêu thương đó.",
+      "price": 780000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 15,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh sua/June 2022/ARRANG-4261-500x500.jpg",
+      "name": "Nhịp Đập Con Tim",
+      "description": "Lẵng hoa hình trái tim đẹp lộng lẫy và đầy rực rỡ sẽ là một món quà đầy ấn tượng cho hầu hết các dịp đặc biệt. Được tạo nên từ những thợ hoa chuyên nghiệp và tận tâm nhất, lẵng hoa nổi bật từ hồng đỏ chắc chắn sẽ mang đến cho người nhân những giây phút bất ngờ ngọt ngào nhất.",
+      "price": 1400000,
+      "type": "hoa_tinh_yeu"
+    },
+    {
+      "id": 16,
+      "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Product_March/mai-ben-nhau-500x500.jpg",
+      "name": "Mãi Bên Nhau",
+      "description": "Hoa hồng luôn là biểu tượng cho sự trường tồn, vĩnh cửu, thể hiện một tình yêu mãnh liệt, bất diện, không bao giờ đổi thay. Còn chần chờ gì mà không gửi đến một nửa yêu thương của bạn một bó hoa đầy dễ thương này?",
+      "price": 50000,
+      "type": "hoa_tinh_yeu"
+    }
 ]
