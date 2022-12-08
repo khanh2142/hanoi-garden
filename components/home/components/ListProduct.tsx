@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import ProductCard from "../../product/components/ProductCard";
 
 import flowerIcon1 from "public/images/flower-list-1.png";
@@ -8,6 +7,11 @@ import flowerIcon3 from "public/images/flower-list-3.png";
 import flowerIcon4 from "public/images/flower-list-4.png";
 import flowerIcon5 from "public/images/flower-list-5.png";
 import flowerIcon6 from "public/images/flower-list-6.png";
+
+import { useEffect, useState } from "react";
+import { random } from "../../../service/randomNumber";
+
+import api from "../../../data/products.json";
 
 const ListProduct = () => {
   const imageIconList: any[] = [
@@ -18,28 +22,29 @@ const ListProduct = () => {
     { image: flowerIcon6 },
   ];
 
-  const random = (min: any, max: any) => {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  };
-
   const [data, setData] = useState([] as any);
 
   useEffect(() => {
     let arr: any[] = [];
-
-    for (let i: any = 0; i < 8; i++) {
-      arr.push({
-        id: i,
-        name: "Hồng phun xanh đương",
-        price: 100000,
-        image:
-          "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Mar_2021/Only%20You-500x500.jpg",
-        type: "hoa_tinh_yeu",
-      });
+    for (let item = 0; item < 8; item++) {
+      arr.push(getRandomedItem(arr));
     }
 
     setData(arr);
   }, []);
+
+  const getRandomedItem: any = (arr: any) => {
+    let item = api[random(0, api.length - 1)];
+    if (
+      arr.find((c: any) => {
+        return c.id === item.id;
+      })
+    ) {
+      return getRandomedItem(arr);
+    } else {
+      return item;
+    }
+  };
 
   return (
     <div className="mt-12">

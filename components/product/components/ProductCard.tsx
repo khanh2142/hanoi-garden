@@ -23,7 +23,7 @@ const ProductCard = ({
 }) => {
   return (
     <div
-      className={`w-full flex flex-col gap-4 py-1 rounded-md hover:shadow-2xl ease-linear duration-300 justify-center items-center group relative hover:shadow-${color.toString()} z-10`}
+      className={`w-full flex flex-col gap-4 py-1 rounded-md hover:shadow-2xl ease-linear duration-300 justify-center items-center group relative hover:shadow-rose-400 z-10`}
       tabIndex={tabIndex}
     >
       <a href={`/product/${data.id}`} className="h-64 w-full" tabIndex={-1}>

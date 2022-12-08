@@ -126,7 +126,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-4">
             <img
-              src="https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-1/317090780_1331684837658048_7595888749454577856_n.jpg?stp=dst-jpg_p320x320&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=iWsoA8Hje68AX_uLlHL&_nc_ht=scontent.fhan17-1.fna&oh=00_AfDdaHKqgaFBwYIv_lbhu_SNmGxNAoB4nXA8hGmYp5gfdA&oe=638B8429"
+              src="https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-1/317090780_1331684837658048_7595888749454577856_n.jpg?stp=dst-jpg_p320x320&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=UR95qEdm_kYAX8IuOPT&_nc_ht=scontent.fhan5-6.fna&oh=00_AfB_rOVFbh0BXKpzEnG2BT8uPgSfw9wSnMv_pT1uwMQzlQ&oe=63936D29"
               alt="NBK"
               className="w-10 h-10 rounded-full"
             />
@@ -156,7 +156,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-4">
             <img
-              src="https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-1/273603172_494850688822345_1927809792168101205_n.jpg?stp=c0.29.320.320a_dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=oZIJepHf9nYAX9Lj6J9&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBVbErUNHCB-7XZ1hSfWgORV-Bhqzr6r38r2Eaov8bTbg&oe=638CB222"
+              src="https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-1/273603172_494850688822345_1927809792168101205_n.jpg?stp=c0.29.320.320a_dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=wK0TEGSQ2YYAX-LElqq&_nc_ht=scontent.fhan5-7.fna&oh=00_AfDKBukuOLlPi8iHbJhKi9B5H3zIoX619kPOXdFZfoAQGg&oe=6392A0E2"
               alt="NBK"
               className="w-10 h-10 rounded-full"
             />

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "content": "Trang chủ",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "content": "Sản phẩm",
+    "link": "/product"
+  },
+  {
+    "id": 3,
+    "content": "Vòng quay may mắn",
+    "link": "/"
+  },
+  {
+    "id": 4,
+    "content": "Bài viết",
+    "link": "/post"
+  },
+  {
+    "id": 5,
+    "content": "Liên hệ",
+    "link": "/"
+  }
+]

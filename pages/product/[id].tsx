@@ -7,7 +7,10 @@ import api from "../../data/products.json";
 import errorIcon from "../../public/images/404-icon.png";
 
 import flowerIcon2 from "public/images/flower-list-2.png";
+import { toast, ToastContainer } from "react-toastify";
 import { numberWithCommas } from "../../service/numberWithCommas";
+
+import "react-toastify/dist/ReactToastify.css";
 
 export interface Product {
   id: number;
@@ -47,21 +50,16 @@ const DetailProduct = () => {
   useEffect(() => {
     getData(id);
 
-    let arr: any[] = [];
+    const arr: any = api.filter((item: any) => {
+      if (item.type === data.type && item.id !== data.id) {
+        return item;
+      }
+    });
 
-    for (let i: any = 0; i < 4; i++) {
-      arr.push({
-        id: i,
-        name: "Hồng phun xanh đương",
-        price: 100000,
-        image:
-          "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Mar_2021/Only%20You-500x500.jpg",
-        type: "hoa_tinh_yeu",
-      });
-    }
+    arr.length = 4;
 
     setRelativeData(arr);
-  }, [id]);
+  }, [id, data]);
 
   const handleChangeValue = (e: any) => {
     setQuantity(Number(e.target.value));
@@ -72,31 +70,33 @@ const DetailProduct = () => {
 
     const local: any = localStorage.getItem("products");
 
-    const localProducts: any = JSON.parse(local);
+    const localProducts: any[] = JSON.parse(local) || [];
 
-    const arr: any[] = [];
-
-    arr.push(currentProduct);
-
-    if (!localProducts) {
-      localStorage.setItem("products", JSON.stringify(arr));
+    if (!localProducts || localProducts.length === 0) {
+      localStorage.setItem("products", JSON.stringify([{ ...currentProduct }]));
     } else {
       const dummyArr: any[] = [...localProducts];
 
-      localStorage.setItem(
-        "products",
-        JSON.stringify(
-          dummyArr.map((item: any) => {
-            if (item.id === id) {
-              item.quantity = item.quantity + quantity;
-            }
-            return item;
-          })
-        )
-      );
+      if (
+        dummyArr.find((item: any) => {
+          return item.id === currentProduct.id;
+        })
+      ) {
+        const newArr: any[] = dummyArr.map((item: any) => {
+          if (item.id === currentProduct.id) {
+            item.quantity += currentProduct.quantity;
+          }
+          return item;
+        });
+
+        localStorage.setItem("products", JSON.stringify(newArr));
+      } else {
+        dummyArr.push(currentProduct);
+        localStorage.setItem("products", JSON.stringify(dummyArr));
+      }
     }
 
-    console.log(localProducts);
+    toast.success(`Thêm vào giỏ hàng sản phẩm ${data.name} thành công!`);
   };
 
   return (
@@ -131,7 +131,7 @@ const DetailProduct = () => {
                     type="number"
                     min={1}
                     max={100}
-                    className="border-2 h-20 w-24 pl-2"
+                    className="p-3 w-24 h-10 border-2 border-rose-400 focus:outline-rose-600"
                     value={quantity}
                     onChange={(value: any) => {
                       handleChangeValue(value);
@@ -191,6 +191,8 @@ const DetailProduct = () => {
           </div>
         )}
       </div>
+
+      <ToastContainer autoClose={1000} closeButton={false} />
     </>
   );
 };

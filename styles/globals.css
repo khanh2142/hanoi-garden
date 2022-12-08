@@ -53,6 +53,14 @@ a {
   animation: cart-title 0.5s linear;
 }
 
+.post-desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
 @keyframes cart {
   0% {
     translate: -50px;
