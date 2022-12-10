@@ -255,5 +255,389 @@
     "description": "Bó hoa kết hợp giữa hồng kem cùng baby trắng xinh xắn là một món quà ý nghĩa mà đầy dễ thương. Hãy dành tặnh người con gái bạn thương một món quà đầy ngọt ngào nhé. Phút yêu đầu bao giờ cũng lãng mạn và đầy ngọt ngào như một giấc mơ, đối phương trong mắt bạn lúc đó thật tỏa nắng và đáng yêu, đừng ngần ngại để bó hoa thay bạn gợi nhắc cho nàng khoảnh khắc ngọt ngào đó nhé!",
     "price": 599000,
     "type": "hoa_sinh_nhat"
-  }
+  },
+  {
+    "id": 33,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New%20Sep/moi-ke-moi-377x377.jpg",
+    "name": "Hoa cầm tay cô dâu Môi Kề Môi",
+    "description": "Một chút sắc hồng lãng mạn, một chút sắc trắng tinh khôi hòa quyện lại tạo nên một bó hoa rất dễ thương. Bó hoa là điều tuyệt vời nhất cho các cô nàng yêu sắc hồng và theo đuổi phong cách sang trọng quí phái.",
+    "price": 660000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 34,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Apr/FCBouquet_Apr_4348-377x377.jpg",
+    "name": "HOA CẦM TAY CÔ DÂU CHÂN TÌNH",
+    "description": "Có khoảng khắc nào hạnh phúc hơn giấy phút chàng nói tiếng tỏ tình? Nếu có chỉ có thể là lúc chàng nói lời cầu hôn, là hạnh phúc vỡ òa. Cảm xúc của cô gái đón nhận tình yêu trong khoảng khắc cầu hôn là cảm ứng cho thiết kế hoa 'Chân Tình', nồng nàn dịu dàng nghẹn ngào rất riêng , rất đỗi con gái.",
+    "price": 820000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 35,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Jul/tieng-yeu-377x377.jpg",
+    "name": "Hoa Cưới Baby Hồng",
+    "description": "Mẫu hoa cầm tay được Flowercorner.vn thiết kế từ hoa baby phun hồng phù hợp với các cô dâu mặc áo cưới màu trắng. Bó hoa cưới tiếng yêu là lựa chọn hoàn hảo cho các cô dâu yêu thích sự mới lạ và hiện đại.",
+    "price": 820000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 36,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Product_March/BOUQUET-4193_Mar-377x377.png",
+    "name": "Hoa Cưới Baby Hồng",
+    "description": "Hoa baby trắng tinh khôi tượng trưng cho tình yêu đầy chân thành, thuần khiết và trường tồn với thời gian. Dẫu có khó khăn, cách trở trong cuộc sống anh vẫn luôn bên cạnh em chính là lời nhắn dễ thương mà bó hoa cưới cầm tay baby trắng này gửi gắm trong ngày trọng đại của bạn đấy.",
+    "price": 700000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 37,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Jul/mat-cuoi-377x377.jpg",
+    "name": "Hoa Cưới Mắt Cười",
+    "description": "Lãng mạn, tươi mát và dễ thương, bó hoa cầm tay được dựa trên cảm hứng từ những câu chuyện tình trẻ trung, đáng yêu và thật lòng. Tông màu trắng xanh tinh khiết sẽ góp phần tô thêm màu sắc hạnh phúc vào đám cưới của bạn đấy. ",
+    "price": 620000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 38,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_May/FCBouquet_May_4365-377x377.jpg",
+    "name": "Hoa Cưới Ấm Áp",
+    "description": "Hướng dương vốn tượng trưng cho một tình yêu thủy chung, và thường mang đến luồng năng lượng tích cực, ấm áp. Một bó hoa cầm tay thiết kế từ những bông hoa hướng dương tươi sáng, đặc biệt kết hợp cùng baby trắng thanh khiết trong ngày cưới thể hiện niềm tin và hi vọng trong tình yêu, luôn hướng về điều tươi sáng nhất. Còn chần chờ gì nữa mà không chọn thiết kế mà các nàng thích nhất cho đám cưới mình đi nào. ",
+    "price": 560000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 39,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Apr/FCBouquet_Apr_4349-377x377.jpg",
+    "name": "HOA CẦM TAY CÔ DÂU TÌNH YÊU CHÂN THÀNH",
+    "description": "Có khoảng khắc nào hạnh phúc hơn giấy phút chàng nói tiếng tỏ tình? Nếu có chỉ có thể là lúc chàng nói lời cầu hôn, là hạnh phúc vỡ òa. Cảm xúc của cô gái đón nhận tình yêu trong khoảng khắc cầu hôn là cảm ứng cho thiết kế hoa 'Chân Tình', nồng nàn dịu dàng nghẹn ngào rất riêng , rất đỗi con gái.",
+    "price": 1100000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 40,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/hctcd12093-377x377.jpg",
+    "name": "Hoa Cưới Tiếng Yêu",
+    "description": "Có khoảng khắc nào đặc biệt hơn giây phút chàng nói tiếng tỏ tình? Nếu có chỉ có thể là lúc chàng nói lời cầu hôn. khi mà niềm hạnh phúc vỡ òa. Cảm xúc của cô gái đón nhận tình yêu trong khoảng khắc được ngỏ lời về chung một nhà chính là cảm hứng chính cho thiết kế bó hoa cưới 'Tiếng Yêu'. Đây là một bó hoa vừa nồng nàn, lãng mạn, nhưng cũng rất dịu dàng, nhẹ nhàng rất riêng và rất đỗi con gái.",
+    "price": 725000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 41,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/June%202022/hoa-cuoi-cam-tay-12-377x377.jpg",
+    "name": "Hoa cầm tay cô dâu Ngát Xanh",
+    "description": "Bó hoa là sự kết hợp hoàn hảo giữa cẩm tú cầu màu xanh dương và baby trắng",
+    "price": 670000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 42,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/June%202022/hoa-cuoi-cam-tay-11-377x377.jpg",
+    "name": "Hạnh Phúc Lứa Đôi",
+    "description": "Hoa hồng là loại hoa thể hiện tình yêu mãnh liệt, kết hợp với hoa baby trắng nhẹ nhàng, cùng chiếc váy cưới lộng lẫy, sẽ giúp tôn lên vẻ đẹp của cô dâu trong ngày cưới của mình",
+    "price": 880000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 43,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/June%202022/hoa-cuoi-cam-tay-14-377x377.jpg",
+    "name": "Hoa cầm tay cô dâu Vườn Tình Yêu",
+    "description": "Sen đá bí ẩn như vị vua vương quyền sánh vang bên cạnh nữ hoàng hồng trong dáng vẻ cao sang thanh thoát,bó hoa thích hợp với các nàng yêu thích tinh tế mà vô cùng gần gũi với tông màu xanh chủ đạo cho bó hoa ngày cưới.",
+    "price": 1480000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 44,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Nov/BOUQUET-4354-377x377.jpg",
+    "name": "Hoa Cầm Tay Cô Dâu Kim Cương",
+    "description": "Cô dâu nào lại không muốn ngày trọng đại của mình thật đặc biệt, từ đường may trên chiếc váy cưới đến bó hoa cầm tay xinh xắn. Mọi thứ nên hoàn hảo và lộng lẫy trong ngày đặc biệt này",
+    "price": 960000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 45,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/fc%20(6)-BOUQUET-4247-600x600%20(1)-377x377.jpg",
+    "name": "Ngày Sánh Đôi",
+    "description": "Bó hoa kết hợp giữa hồng dâu cùng cát tường một món quà ý nghĩa mà đầy dễ thương. Hãy dành tặnh người con gái bạn thương một món quà đầy ngọt ngào nhé. Phút yêu đầu bao giờ cũng lãng mạn và đối phương trong mắt bạn lúc đó thật tỏa nắng và đáng yêu,,đừng ngần ngại để bó hoa thay bạn gợi nhắc cho nàng khoảnh khắc ngọt ngào đó nhé!",
+    "price": 720000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 46,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Dec/BOUQUET-4241_Dec-377x377.jpg",
+    "name": "Hoa Cưới Ngày Rạng Ngời",
+    "description": "Hoa Cưới Ngày Rạng Ngời là sự kết hợp của những cành tú cầu xanh lãng mạn được kết hợp thật long lanh cùng baby trắng, mang đến sắc màu rực rỡ mà không kém phần dịu dàng và tinh tế. Bó hoa có thể là bó hoa cầm tay dành cho cô dâu cho ngày đẹp nhất cuộc đời mình , cũng có thể là một món quà xinh tươi cho những dịp đặc biệt nhất!",
+    "price": 720000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 47,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Jul/chung-mot-nha-377x377.jpg",
+    "name": "Hoa Cưới Ngày Rạng Ngời",
+    "description": "Giây phút về 'một nhà' hẳn là giây phút mà biết bao người hồi hộp mong đợi. Khoảnh khắc được mặc chiếc váy cưới lộng lẫy và trên tay là một bó hoa đầy xinh tươi hẳn là giây phút hạnh phúc nhất trong cuộc đời người con gái.",
+    "price": 1150000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 48,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_May/FCBouquet_May5_4362-377x377.jpg",
+    "name": "Hoa Cưới Ngày Rạng Ngời",
+    "description": "Một bó hoa cổ điển cho những cô dâu thích hoài cổ và yêu sự nhẹ nhàng. Cẩm tú cầu xanh kết hợp một cách tinh tế cùng hồng trắng tăng thêm vẻ đằm thắm dịu dàng vốn có của nàng. Còn chần chờ gì nữa mà không chọn thiết kế mà các nàng thích nhất cho đám cưới mình đi nào.",
+    "price": 1020000,
+    "type": "hoa_cuoi"
+  },
+  {
+    "id": 49,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Oct/tuoi-sang-377x377.jpg",
+    "name": "Tươi Sáng",
+    "description": "Lẵng hoa khai trương Tươi Sáng mang tông màu sáng đầy vui tươi, ngập tràn ánh nắng và niềm vui hân hoan sẽ giúp bạn gửi đến đối tác, doanh nghiệp những lời chúc chân thành và hoan hỉ nhất. Luôn tỏa sáng và hướng đến tương lai tươi đẹp cũng là ý nghĩa mà giỏ hoa này mang đến với hoa hướng dương, hồng vàng và điểm lan vàng.",
+    "price": 760000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 50,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Nov/STANDEE-4135-377x377.jpg",
+    "name": "Kệ Hoa Khai Trương Trang Trọng",
+    "description": "Kệ hoa mừng khai trương với thiết đầy sáng tạo và tinh tế, được phối hợp từ các loại hoa khác nhau như hoa hồng, hướng dương... mỗi loài hoa tượng trưng cho những ý nghĩa sâu sắc và phong phú khác nhau. Cùng với tông màu vàng tươi sáng, kệ hoa là món quà mang thông điệp chúc chủ cửa hàng, công ty, chi nhánh mau gặt hái nhiều thành công và phát triển bền vững.",
+    "price": 1760000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 51,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/Standee_March/FCStandee_DaiCat_Mar4-377x377.jpg",
+    "name": "Kệ Hoa Khai Trương Đại Cát",
+    "description": "Mang tông màu chủ đạo của vàng- tượng trưng cho sự cao quý, thành đạt và sự mạnh mẽ và chiến thắng. Kết hợp giữa sắc vàng của đồng tiền và sắc hồng, tím tình cảm từ lilies và cát tường, kệ hoa khai trương đại cát sẽ thay bạn gửi đi dòng thông điệp: chúc khai trương tấn tới, phát đạt và vững tin bước trên con đường hướng đến thành công đầy rạng ngời và tươi sáng.",
+    "price": 990000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 52,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Jul/STANDEE-4128-377x377.jpg",
+    "name": "Kệ Hoa Khai Trương Phát Đạt",
+    "description": "Mang một sắc màu đầy tinh tế, kệ hoa là sự kết hợp giữa những loại hoa thanh tao mà quí phái nhất. Kệ hoa gồm hoa ly, hồng đỏ, tú cầu và nhiều loại hoa khác tượng trưng cho sự may mắn, niềm vui chiến thắng đầy hân hoan. Kệ hoa khai trương phát đạt là một món quà tuyệt vời thay cho lời cảm ơn đến những người đã luôn sát cánh, giúp đỡ bạn trong con đường sự nghiệp.",
+    "price": 2200000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 53,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Nov/STANDEE-4151-377x377.jpg",
+    "name": "Kệ Hoa Chúc Mừng Tấn Tiến",
+    "description": "Kệ hoa đầy tinh tế được tạo nên từ các loại đồng tiền đủ màu sắc trên nền tú cầu xanh tươi mang đến không khí tươi vui, ấm áp và đầy nụ cười. Kệ hoa thích hợp là một món quà đến bạn bè, người thân, đối tác cùng lời chúc cho sự hy vọng, hạnh phúc và nhiều điều tốt đẹp nhất.",
+    "price": 1390000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 54,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Nov/FCProducts_Novx_4145-377x377.jpg",
+    "name": "Kệ Hoa Khai Trương Danh Vọng",
+    "description": "Sắc đỏ rực rỡ như mặt trời, đầy niềm tin chiến thắng. Kệ hoa khai trương danh vọng chắc chắn là một gợi ý cho món quà vào dịp kỷ niệm, thành lập của công ty như một lời chúc ý nghĩa 'Thêm tuổi thêm vững mạnh - Vươn tới tầm cao mới'",
+    "price": 1490000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 55,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_May/ARRANG-4305-377x377.jpg",
+    "name": "Chúc thành công",
+    "description": "Lẵng hoa chúc thành công là mẫu lẵng hoa tặng khai trương được đặt nhiều nhất tại Flower Corner. Lẵng hoa chúc thành công được thiết kế với tông màu nhẹ nhàng, tinh tế từ các loại hoa hồng trắng, hồng hồng, green wicky và các loại hoa lá trang trí phụ. Chúc thành công sẽ là món quà hoàn hảo để dành tặng đối tác, bạn bè hoặc người thân trong ngày lễ khai trương cửa hàng hoặc công ty bởi sự sang trọng và thông điệp tốt lành được ẩn chứa đằng sau lẵng hoa. Bên cạnh đó, bạn cũng hoàn toàn có thể lựa chọn lẵng hoa chúc thành công như một món quà tặng sinh nhật, tốt nghiệp đầy màu sắc để gửi tới bạn bè, người thân.",
+    "price": 1260000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 56,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_June/ARRANG-4301_June_2020-377x377.jpg",
+    "name": "Sức Sống",
+    "description": "Lẵng hoa hoàn toàn nỗi bật đầy lung linh rạng ngời tạo nên từ những cánh hồng pastel đầy sức sống nhất. Với thiết kế mới lạ tỏa rộng xung quanh, lẵng hoa không chỉ là một món quà đầy ý nghĩa mà còn là vật trang trí tinh tế mang lại cho nhà, văn phòng công ty một không khí đầy tươi mới.",
+    "price": 1100000,
+    "type": "hoa_khai_truong"
+  },  
+  {
+    "id": 57,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Product_March/ARRANG-4290_Mar-377x377.png",
+    "name": "Hoa Chúc Mừng Rực Rỡ ",
+    "description": "Lẵng hoa khai trương để bàn Rực Rỡ với nhiều loại hoa khác nhau như hoa lan trắng, hồng đỏ, cúc ping pong cùng phối hợp tạo nên một lẵng hoa đẹp như một bản tình ca với những nốt thăng, nốt trầm, hộp hoa là lời gửi gắm cho thông điệp, tình yêu hay cuộc sống có lúc vui, lúc buồn nhưng chỉ cần có bạn kề bên, chúng ta sẽ luôn vượt qua và hướng đến tình yêu và tương lai tươi sáng nhất.",
+    "price": 1100000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 58,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Sep/ARRANG-4298-377x377.jpg",
+    "name": "Hoa Chúc Mừng Hồng Phát",
+    "description": "Lẵng hoa khai trương hồng phát gồm hồng vàng, cát tường trắng, lá pito, sao tím... Các loại hoa tươi đẹp và rực rỡ nhất được thiết kế xòe rộng ra các hướng sẽ giúp bạn gửi đến bạn bè, người thân ,đồng nghiệp lời nhắn nhủ, hy vọng vào những điều may mắn và tốt đẹp sẽ đến trên con đường chinh phục ước mơ và khát vọng của mỗi người.",
+    "price": 1480000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 59,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Nov/STANDEE-4188-377x377.jpg",
+    "name": "Hoa Khai Trương Cát Tường",
+    "description": "Chỉ với chủ đề đơn sắc vàng tươi thắm nhưng chiếc kệ không hề đơn giản khi nó, dưới bàn tay đầy nghệ thuật của thợ hoa, được thiết kế một cách độc đáo và đặc sắc. Kệ hoa khai trương cát tường như một niềm vui nho nhỏ, một lời chúc chân thành và tốt đẹp trao đến người nhận để chung vui trong ngày trọng đại. Chiếc kệ sẽ giúp lan toả những thành ý,  những điều tốt lành, viên mãn và hạnh phúc đến mọi người.",
+    "price": 880000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 60,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Product_March/ARRANG-4311_Mar-377x377.png",
+    "name": "Món Quà Chúc Mừng",
+    "description": "Mỗi người đều luôn ấp ủ, hy vọng và phấn đấu vì ước mơ, khát vọng của riêng mình. Lẵng hoa mừng khai trương với những cát tường màu dâu rực rỡ như màu sắc màu đam mê, sẽ mang đến những điều may mắn, những niềm vui, trong khi hoa hồng kem tượng trưng cho tinh thần mạnh mẽ, sự nhiệt huyết và không ngừng chiến đấu. Kết hợp cùng lá cỏ đồng tiền, hộp hoa thay bạn gửi đi nhửng lời chúc chân thành và đầy hân hoan.",
+    "price":820000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 61,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Oct/FCProduct_Sep_4147x-377x377.jpg",
+    "name": "Hoa Khai Trương Vững tiến",
+    "description": "Sự rực rỡ của sắc hồng đầy vinh quang, hứng khởi và tràn đầy sức sống được tạo nên từ hoa hồng và cát tường, kết hợp cùng sắc trắng thanh lịch tinh tế từ lan hồ điệp và baby, kệ hoa là một lời chúc mang đầy nghĩa cho một sự thành công rực rỡ sáng tươi và hân hoan nhất.",
+    "price":2560000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 62,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Aug/ARRANG-4325_Aug-377x377.jpg",
+    "name": "Khoe Sắc Thắm",
+    "description": "Được làm từ những bông hướng dương tươi nhất và điểm tô bởi những nhánh cúc calimero trắng và salem hồng xinh xắn, lẵng hoa mừng khai trương khoe sắc rực rỡ  và mang đầy sức sống. Đây se là món quà vô cùng phù hợp nếu như bạn muốn tạo một ấn tượng đến đối tác, đồng nghiệp, bạn bè, hay những người mà bạn thương yêu quan tâm nhất.",
+    "price":840000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 63,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_June/STANDEE-4173_June_2020-377x377.jpg",
+    "name": "Đơm Hoa Kết Trái",
+    "description": "Mẫu kệ hoa khai trương đơm hoa kết trái được thiết kế với thông điệp đặc biệt thể hiện niềm vui và mong ước chân thành dành cho những thành công sắp tới và sự khởi đầu mới đầy tốt đẹp của người nhận mà người gửi muốn nhắn nhủ và trao gửi",
+    "price":840000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 64,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/STANDEE4179xxHinhNov2-377x377.jpg",
+    "name": "Kệ Hoa Khai Trương Phồn Vinh",
+    "description": "Khoảnh khắc tươi đẹp và huy hoàng nhất trong một ngày chính là khi mặt trời bắt đầu ló dạng toả ra thứ ánh sáng chói loà mà ấm áp đến muôn nơi cũng giống như một lời chúc, mong ước cho sự nổi tiếng và việc kinh doanh được lan rộng, ngày càng phát đạt và thịnh vượng. Dựa trên ý tưởng đó mẫu hoa khai trương phồn vinh đã được thiết kế với tông đỏ và hồng từ những bông hồng và đồng tiền tươi thắm để mô tả lại hình ảnh tươi đẹp ấy. ",
+    "price":840000,
+    "type": "hoa_khai_truong"
+  },
+  {
+    "id": 65,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Jul/STANDEE-4118-377x377.jpg",
+    "name": "Vòng Hoa Tang Lễ Phân Ưu",
+    "description": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. Mẫu vòng hoa tang lễ Phân Ưu được Flower Corner thiết kế với tông màu trắng từ các loại hoa ly, đồng tiền và hoa lan giúp bạn gửi lời chia buồn chân thành tới gia đình người đã khuất.",
+    "price":1550000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 66,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/Standee4208xxxHinhNov7-377x377.jpg",
+    "name": "Hoa Tang Lễ Dòng Thời Gian",
+    "description": "Hãy nhớ rằng, hoa chia buồn không nhất thiết phải thật buồn hoặc ảm đạm. Giữa khoảng thời gian khó khăn này, hãy để những người xung quanh tưởng nhớ đến khoảng thời gian tươi đẹp, đầy sự cống hiến của người đã an nghỉ bằng những đoá hoa tươi từ Flower Corner. Hoa tươi không chỉ dâng sắc, dâng màu, mà còn dâng hương, tạo nên bầu không khí nhẹ nhàng thoải mái hơn cho gia quyến. Chiếc vòng hoa này đặc biệt còn có thêm sắc tím của lan, tượng trưng cho ước muốn của sự vãn sinh. Hãy để những đoá hoa này nói lên lòng thành của bạn đến với gia quyến của người đã khuất.",
+    "price":14150000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 67,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Sep/STANDEE-4263-377x377.jpg",
+    "name": "Vĩnh biệt",
+    "description": "Kệ tang Vĩnh biệt như một lời chào cuối cùng với người đã khuất. Tone màu chủ đạo là màu xanh-trắng, là sự phối hợp hài hòa và tinh tế, như một điều ước người sẽ an nghỉ nơi chín suối.",
+    "price":11200000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 68,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Jul/STANDEE-4119_Jul_2020-377x377.jpg",
+    "name": "Vòng Hoa Tang Lễ Nhớ thương",
+    "description": "Giờ phút chia ly là chuyện thường tình trong cuộc sống, kiếp người nào rồi cũng kết thúc, dẫu biết thế, nhưng mỗi lần mất đi người thân yêu đều để lại trong lòng người ở lại một nỗi đau khó vơi. Trong những giai đoạn này, một lời an ủi, sẻ chia dù nhỏ nhất, như một vòng hoa chia buồn, cũng sẽ mang một ý nghĩa to lớn.",
+    "price":13450000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 69,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_May/STANDEE-4161-377x377.jpg",
+    "name": "VÒNG HOA TANG LỄ THƯƠNG TIẾC",
+    "description": "Vòng hoa tang lễ nhỏ nhưng sự chân thành của người gửi san sẻ lớn vô cùng dành cho người nhà, và sự thương tiếc vô hạn của bạn dành cho người đã mãi đi xa. Sự ra đi đột ngột và nỗi buồn vô hạn của người gửi với mong ước trao lời chia xa cùng bằng vòng hoa nhỏ này.",
+    "price":14350000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 70,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New%20Sep/vong-hoa-chia-buon-an-giac-377x377.jpg",
+    "name": "Hoa Chia Buồn An Giấc",
+    "description": "Bạn đang cần tìm một mẫu kệ hoa chia buồn đẹp, sang trọng với một mức giá không quá cao để gửi tới đám tang? Mẫu vòng hoa chia buồn An Giấc sẽ là sự lựa chọn phù hợp và đáp ứng đủ các tiêu chí mà bạn đang cần.",
+    "price":15000000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 71,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Apr/STANDEE-4199-377x377.png  ",
+    "name": "Hoa Chia Buồn Du Dương",
+    "description": " Gửi lời thành kính đến người đã an nghỉ bằng những đoá hoa đẹp nhất đến từ Flower Corner. Kệ hoa này được bao phủ bởi những cánh cánh hồng và cúc trắng nhẹ nhàng, tinh tế, mà mang mác buồn như tiếng sóng biển du dương một buổi chiều vắng. ",
+    "price":14500000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 72,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Jul/STANDEE-4202_Jul_2020-377x377.jpg",
+    "name": "Vòng Hoa Tang Lễ Phù Du",
+    "description": "Vòng hoa tang lễ phù du được Flower Corner thiết kế với tông màu trắng xanh của các loại hoa cẩm tú cầu, cúc ping pong và các loại lá trang trí phụ. Tông màu trắng là màu truyền thống trong các đám tang kết hợp với màu xanh dịu nhẹ để làm giảm đi sự tang thương. Mẫu vòng hoa tang lễ phù du là lựa chọn hoàn hảo để gửi đi lời chia buồn chân thành với sự mất mát của gia đình người đã khuất.",
+    "price":10500000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 73,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_May/STANDEE-4198-377x377.jpg",
+    "name": "Vòng hoa tang lễ Luyến tiếc",
+    "description": "Thể hiện sự thành kính đến với gia quyến với kệ hoa được tô điểm bởi những đoá hồng kem tinh tế. Vòng hoa được bao phủ bởi những đoá hồng kem tươi nhất và đặc biệt được tô điểm bới hoa hồng tím đằm thắm, tưởng nhớ những kỉ niệm tươi đẹp nhất trong dòng thời gian của người khi còn ở bên gia quyến. Vòng hoa này chính là lời tri ân sâu sắc nhất, tưởng nhớ đến sự hi sinh của người đã khuất.",
+    "price":24000000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 74,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_May/STANDEE-4157_May_2020-377x377.jpg",
+    "name": "Hoa Chia Buồn Tĩnh Lặng",
+    "description": "Ý nghĩa vòng tròn nghĩa là nỗi nhớ trong lòng chúng ta vẫn luôn tồn tại, dù cho ai đó đã đi xa. Chúng tôi chú trọng những chi tiết kết hợp hoa với nhau, tạo nên ý nghĩa chân thành, và lời tiễn đưa dành cho người đã mất.",
+    "price":15850000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 75,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/Standee4203xxxHinhNov7-377x377.jpg",
+    "name": "Vòng Hoa Tang Lễ Thiên Thu 2",
+    "description": "Hoa ly là loài hoa phù hợp nhất để thể hiện lòng thành kính đối với người đã khuất, vì loài hoa này thể hiện cho tâm hồn trong sáng và lương thiện. Hoa ly trắng còn đại hiện cho sự thuỷ chung và sự tinh khiết. Chiếc kệ hoa kết hợp giữa hoa hồng, cát tường, cẩm tú cầu, hoa môn và hoa ly trắng nhằm gửi gắm sự thương mến và mong ước chân thành về một giấc ngủ an lạc dành cho người đã ra đi.",
+    "price":14650000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 76,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_Apr/STANDEE-4211-377x377.png",
+    "name": "Vòng hoa tang lễ Hồng Phai",
+    "description": "Một cuộc đời đẹp và ý nghĩa cần được trân trọng và nhớ tới bởi những đoá hoa đẹp nhất, tươi nhất, ngát hương nhất và tinh tế nhất. Sự kết hợp giữa những cánh hoa hồng cùng cúc trắng và được điểm tô bởi sắc xanh từ cẩm tú cầu và lá phụ tạo nên một bức tranh thiên nhiên hoàn hảo, thể hiện rõ lòng thành của người gửi dành cho người ra đi và gia quyến",
+    "price":20700000,
+    "type": "hoa_chia_buon"
+  },
+  {
+    "id": 77,
+    "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_May/STANDEE-4120_May_2020-377x377.png",
+    "name": "HOA CHIA BUỒN LẮNG ĐỌNG",
+    "description": "Với những người ở xa không thể trực tiếp đến tang lễ chia buồn cùng gia đình, thì vòng hoa là đại diện duy nhất cho tấm lòng, sự quan tâm chia sẻ của người gửi. Vì thế, để thể hiện đầy đủ và trang trọng nhất lời chia buồn của bạn, vòng hoa phải được lựa chọn và chuẩn bị một cách thật nghiêm túc và cẩn thận. Vẫn là vòng hoa trắng truyền thống, nhưng được điểm thêm hồ điệp trắng, mang đến cho vòng hoa sự sang trọng, chân kính.",
+    "price":14450000,
+    "type": "hoa_chia_buon"
+  },
+{
+  "id": 78,
+  "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_May/JPG/Standee-4229-377x377.jpg",
+  "name": "Hoa Chia Buồn Thành Kính",
+  "description": "Hoa tươi không chỉ được dùng để chúc mừng, để tặng nhau những dịp vui vẻ. Hoa tươi còn có thể được dùng để san sẻ nỗi buồn, thể hiện sự thành kính, tiếc nuối cho những gì còn dang dở. Kính viếng một chiếc kệ hoa để thể hiện lời cầu nguyện, tiếng lòng hiếu thảo đến với người đã an nghỉ. ",
+  "price":12950000,
+  "type": "hoa_chia_buon"
+},
+{
+  "id": 79,
+  "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/New_May/STANDEE-4111-377x377.jpg  ",
+  "name": "Hoa Chia Buồn Lời cuối",
+  "description": "Một kết cấu vòng hoa khác biệt với hai nửa trắng - tím mang đến nét khác biệt, độc đáo, nhưng vẫn không kém phần nhẹ nhàng, thành kính. Để cho lời chia tay không quá nặng nề, đau buồn; hãy gửi những vòng hoa độc đáo, khác biệt để thể hiện sự quan tâm, chân thành của người gửi.",
+  "price":15650000,
+  "type": "hoa_chia_buon"
+},
+{
+  "id": 80,
+  "image": "https://8384f2fb97.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/ke%20hoa%20(3)-377x377.jpg",
+  "name": "Hoa Chia Buồn Vô Thường",
+  "description": "Kệ hoa chia buồn với tông màu trắng tinh tế được kết từ đồng tiền,tú cầu và các loại hoa khác là một lời chia buồn đầy chân thành đến những người bạn luôn hằng yêu quí. Giây phút chia lìa hẳn cần lắm một lời động viên, an ủi chân thành nhất từ những người quan trọng.",
+  "price":12000000,
+  "type": "hoa_chia_buon"
+}
 ]
