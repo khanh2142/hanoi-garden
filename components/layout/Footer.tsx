@@ -126,8 +126,8 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-4">
             <img
-              src="https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-1/317090780_1331684837658048_7595888749454577856_n.jpg?stp=dst-jpg_p320x320&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=UR95qEdm_kYAX8IuOPT&_nc_ht=scontent.fhan5-6.fna&oh=00_AfB_rOVFbh0BXKpzEnG2BT8uPgSfw9wSnMv_pT1uwMQzlQ&oe=63936D29"
-              alt="NBK"
+              src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-1/317090780_1331684837658048_7595888749454577856_n.jpg?stp=dst-jpg_p320x320&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=JDj189chBOcAX_zTOdT&_nc_ht=scontent.fsgn2-1.fna&oh=00_AfCVPJGGom2soBzMW2u-I1E5_-hiZ3Vn_dau0ZiJnLCtfg&oe=63995BE9"
+              alt="T.Thành"
               className="w-10 h-10 rounded-full"
             />
             <a
@@ -142,7 +142,7 @@ const Footer = () => {
           <div className="flex items-center gap-4">
             <img
               src="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.6435-1/181751035_1153365528515693_3082415106486965705_n.jpg?stp=dst-jpg_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=7206a8&_nc_ohc=9LCdDlyw5iwAX_81a6Q&_nc_ht=scontent.fhan17-1.fna&oh=00_AfDS4-aXq6Xv9zEBmwNBYFODpflAxCZ4IcNHozVTOQwQwQ&oe=63AE7F78"
-              alt="NBK"
+              alt="V.Thanh"
               className="w-10 h-10 rounded-full"
             />
             <a
@@ -156,8 +156,8 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-4">
             <img
-              src="https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-1/273603172_494850688822345_1927809792168101205_n.jpg?stp=c0.29.320.320a_dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=wK0TEGSQ2YYAX-LElqq&_nc_ht=scontent.fhan5-7.fna&oh=00_AfDKBukuOLlPi8iHbJhKi9B5H3zIoX619kPOXdFZfoAQGg&oe=6392A0E2"
-              alt="NBK"
+              src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-1/273603172_494850688822345_1927809792168101205_n.jpg?stp=c0.29.320.320a_dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=EO3X5_GK56sAX8tnLdw&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfAzzCssmb7SF8RWbc3IQx3Ji6SSREaUXTlYEjBMe7DS-A&oe=63988FA2"
+              alt="D.Toàn"
               className="w-10 h-10 rounded-full"
             />
             <a

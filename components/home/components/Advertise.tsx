@@ -4,6 +4,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import banner1 from "public/images/flower-banner-1.png";
 import banner2 from "public/images/flower-banner-2.png";
 
+import carousel1 from "public/images/banner-1.png";
+import carousel3 from "public/images/banner-3.png";
+import carousel4 from "public/images/banner-4.png";
+import carousel5 from "public/images/banner-5.png";
+
 import { useEffect, useState } from "react";
 import api from "../../../data/carousels.json";
 
@@ -27,17 +32,34 @@ const Advertise = () => {
         interval={2000}
         showThumbs={false}
       >
-        {data.map((item: any) => {
-          return (
-            <div>
-              <img
-                src={item.image}
-                alt={item.desc}
-                className="h-80 object-cover object-center"
-              />
-            </div>
-          );
-        })}
+        <div>
+          <img
+            src={carousel1.src}
+            alt="Best seller - Không thể bỏ lỡ!"
+            className="h-80 object-cover object-center"
+          />
+        </div>
+        <div>
+          <img
+            src={carousel3.src}
+            alt="Giáng sinh rộn ràng - Hoa xinh chỉ từ 300k!"
+            className="h-80 object-cover object-center"
+          />
+        </div>
+        <div>
+          <img
+            src={carousel4.src}
+            alt="It's the best season of the year!"
+            className="h-80 object-cover object-center"
+          />
+        </div>
+        <div>
+          <img
+            src={carousel5.src}
+            alt="Đặt hoa giảm đến 30%!"
+            className="h-80 object-cover object-center"
+          />
+        </div>
       </Carousel>
 
       <div className="flex flex-col h-80 w-1/4 shadow-lg rounded-r-lg">
