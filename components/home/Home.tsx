@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <>
       <NextSeo
-        title="Ha Noi Garden"
-        description="Vườn hoa Hà Nội"
+        title="Hà Nội Garden"
+        description="Shop hoa tươi Hà Nội Garden cung cấp dịch vụ đặt hoa online giao tận nơi khắp các tỉnh thành Giao hàng MIỄN PHÍ. Shop hoa tươi uy tín tại Việt Nam..."
         canonical="https://hanoi-garden.vercel.app"
         openGraph={{
           url: "https://hanoi-garden.vercel.app",
