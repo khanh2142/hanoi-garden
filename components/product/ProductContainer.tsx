@@ -44,11 +44,11 @@ const ProductContainer = () => {
       {data.map((initItem: any) => {
         return (
           <div key={initItem.type}>
-            <h3
+            <h1
               className={`text-${initItem.color} text-3xl uppercase font-bold text-center`}
             >
               {initItem.name}
-            </h3>
+            </h1>
             <Carousel
               className="w-full z-0 p-10 bg-transparent"
               autoPlay={true}
