@@ -10,6 +10,7 @@ import flowerIcon2 from "public/images/flower-list-2.png";
 import { toast, ToastContainer } from "react-toastify";
 import { numberWithCommas } from "../../service/numberWithCommas";
 
+import Head from "next/head";
 import "react-toastify/dist/ReactToastify.css";
 
 export interface Product {
@@ -101,6 +102,10 @@ const DetailProduct = () => {
 
   return (
     <>
+      <Head>
+        <meta property="og:title" content={data.name} key="title" />
+        <meta property="og:title" title={data.name} key="title" />
+      </Head>
       <NextSeo
         title={
           data && Object.keys(data).length > 0
