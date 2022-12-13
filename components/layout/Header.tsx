@@ -29,9 +29,9 @@ const Header = () => {
               alt="Ha Noi Garden"
               className="h-8 w-auto ease-linear duration-300 hover:scale-125 hover:rotate-180 sm:h-10"
             ></Image>
-            <div className="h-100 flex items-center logo-title animate-colorSkating">
+            <h1 className="h-100 flex items-center logo-title animate-colorSkating">
               Ha Noi Garden
-            </div>
+            </h1>
           </a>
         </div>
 
