@@ -1,10 +1,12 @@
-import { Box, Input, InputLabel, Modal } from "@mui/material";
+import { Box, Modal, TextField } from "@mui/material";
 import Button from "@mui/material/Button";
 import FormControl from "@mui/material/FormControl";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import api from "../../data/products.json";
 import { numberWithCommas } from "../../service/numberWithCommas";
+
+import emptyCart from "public/images/cart-empty-icon.png";
 
 const Cart = () => {
   const [data, setData] = useState([] as any);
@@ -14,7 +16,6 @@ const Cart = () => {
   const [open, setOpen] = useState(false);
 
   const [formValue, setFormValue] = useState({
-    email: "",
     phone: "",
     username: "",
     location: "",
@@ -121,12 +122,21 @@ const Cart = () => {
   };
 
   const submit = () => {
+    if (
+      formValue.location === "" ||
+      formValue.phone === "" ||
+      formValue.username === ""
+    ) {
+      return;
+    }
     toast.success("Cảm ơn bạn đã gửi thông tin. Chúng tôi sẽ liên hệ lại sau!");
     handleClose();
+    localStorage.setItem("products", JSON.stringify([]));
+    reload();
   };
 
   useEffect(() => {
-    console.log(formValue);
+    // console.log(formValue);
   }, [formValue]);
 
   return (
@@ -137,25 +147,10 @@ const Cart = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style} component="form">
-          <FormControl className="w-full" required>
-            <InputLabel htmlFor="email">Email</InputLabel>
-            <Input
-              id="email"
-              aria-describedby="my-helper-text"
-              name="email"
-              type="email"
-              onChange={(e: any) => {
-                setFormValue({
-                  ...formValue,
-                  email: e.target.value,
-                });
-              }}
-            />
-          </FormControl>
+        <Box sx={style}>
           <FormControl className="w-full mt-5" required>
-            <InputLabel htmlFor="phone">Số điện thoại</InputLabel>
-            <Input
+            <TextField
+              label="Số điện thoại"
               id="phone"
               aria-describedby="my-helper-text"
               name="phone"
@@ -168,8 +163,8 @@ const Cart = () => {
             />
           </FormControl>
           <FormControl className="w-full mt-5" required>
-            <InputLabel htmlFor="username">Tên khách hàng</InputLabel>
-            <Input
+            <TextField
+              label="Tên khách hàng"
               id="username"
               aria-describedby="my-helper-text"
               name="username"
@@ -182,8 +177,8 @@ const Cart = () => {
             />
           </FormControl>
           <FormControl className="w-full mt-5" required>
-            <InputLabel htmlFor="location">Địa chỉ giao hàng</InputLabel>
-            <Input
+            <TextField
+              label="Địa chỉ giao hàng"
               id="location"
               aria-describedby="my-helper-text"
               name="location"
@@ -193,7 +188,6 @@ const Cart = () => {
                   location: e.target.value,
                 });
               }}
-              helperText="Vui lòng nhập địa chỉ!"
             />
           </FormControl>
           <Box className="mt-5 flex justify-end">
@@ -208,91 +202,121 @@ const Cart = () => {
         Giỏ hàng
       </h3>
 
-      <div className="flex flex-col mt-10">
-        <div className="grid grid-cols-6 gap-5 border-b-2 pb-4 mb-10">
-          <h6 className="col-span-2">Sản phẩm</h6>
-          <h6 className="">Số lượng</h6>
-          <h6 className="">Đơn giá</h6>
-          <h6 className="">Tổng cộng</h6>
-        </div>
+      {data && data.length > 0 ? (
+        <>
+          <div className="flex flex-col mt-10">
+            <div className="grid grid-cols-6 gap-5 border-b-2 pb-4 mb-10">
+              <h6 className="col-span-2">Sản phẩm</h6>
+              <h6 className="">Số lượng</h6>
+              <h6 className="">Đơn giá</h6>
+              <h6 className="">Tổng cộng</h6>
+            </div>
 
-        <div className="grid grid-rows-1 gap-10">
-          {data.map((item: any) => {
-            return (
-              <div
-                className="grid grid-cols-6 gap-5 items-center py-5 hover:bg-sky-100 ease-linear duration-150"
-                key={item.id}
-              >
-                <span className="col-span-2 flex items-center gap-10 pl-5">
-                  <img src={item.image} alt={item.name} className="w-24 h-24" />
-
-                  <a href={`/product/${item.id}`}>{item.name}</a>
-                </span>
-                <span>
-                  <input
-                    type="number"
-                    value={item.quantity}
-                    onChange={(e: any) => {
-                      setQuantityValue(e, item.id);
-                    }}
-                    className="p-3 w-24 border-2 border-rose-400 focus:outline-rose-600"
-                  />
-                </span>
-                <p className="text-rose-600">{numberWithCommas(item.price)}đ</p>
-                <p className="text-rose-600">
-                  {numberWithCommas(item.price * item.quantity)}đ
-                </p>
-                <span>
-                  <button
-                    className="bg-rose-600 text-white px-6 py-2  hover:bg-rose-800 ease-linear duration-150"
-                    onClick={() => removeItem(item.id)}
+            <div className="grid grid-rows-1 gap-10">
+              {data.map((item: any) => {
+                return (
+                  <div
+                    className="grid grid-cols-6 gap-5 items-center py-5 hover:bg-sky-100 ease-linear duration-150"
+                    key={item.id}
                   >
-                    Xoá
-                  </button>
-                </span>
-              </div>
-            );
-          })}
-        </div>
-      </div>
+                    <span className="col-span-2 flex items-center gap-10 pl-5">
+                      <img
+                        src={item.image}
+                        alt={item.name}
+                        className="w-24 h-24"
+                      />
 
-      <div className="mt-10 flex justify-between">
-        <div className="flex gap-10">
-          <a
-            href="/product"
-            className="bg-sky-400 h-12 flex items-center justify-center px-5 text-white hover:bg-transparent border-2 border-transparent hover:text-sky-400 ease-linear duration-200 hover:border-sky-400"
-          >
-            Tiếp tục mua sắm
-          </a>
-          <button
-            className="bg-amber-500 h-12 flex items-center justify-center px-5 text-white border-2 border-transparent hover:bg-transparent hover:text-amber-500 ease-linear duration-200 hover:border-amber-500 active:bg-green-400"
-            onClick={purchase}
-          >
-            Thanh toán
-          </button>
-        </div>
+                      <a href={`/product/${item.id}`}>{item.name}</a>
+                    </span>
+                    <span>
+                      <input
+                        type="number"
+                        value={item.quantity}
+                        onChange={(e: any) => {
+                          setQuantityValue(e, item.id);
+                        }}
+                        className="p-3 w-24 border-2 border-rose-400 focus:outline-rose-600"
+                      />
+                    </span>
+                    <p className="text-rose-600">
+                      {numberWithCommas(item.price)}đ
+                    </p>
+                    <p className="text-rose-600">
+                      {numberWithCommas(item.price * item.quantity)}đ
+                    </p>
+                    <span>
+                      <button
+                        className="bg-rose-600 text-white px-6 py-2  hover:bg-rose-800 ease-linear duration-150"
+                        onClick={() => removeItem(item.id)}
+                      >
+                        Xoá
+                      </button>
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
 
-        <div className="flex flex-col gap-5">
-          <span className="flex justify-between items-center w-80">
-            <p className="text-xl">Thành tiền</p>
-            <strong className="text-rose-600 text-2xl">
-              {numberWithCommas(amount)}đ
-            </strong>
-          </span>
-          <span className="flex justify-between items-center w-80">
-            <p className="text-xl">Phí vận chuyển</p>
-            <strong className="text-rose-600 text-2xl">
-              {numberWithCommas(shipCost)}đ
-            </strong>
-          </span>
-          <span className="flex justify-between items-center w-80">
-            <p className="text-xl">Tổng cộng</p>
-            <strong className="text-rose-600 text-2xl">
-              {numberWithCommas(amount + shipCost)}đ
-            </strong>
-          </span>
-        </div>
-      </div>
+          <div className="mt-10 flex justify-between">
+            <div className="flex gap-10">
+              <a
+                href="/product"
+                className="bg-sky-400 h-12 flex items-center justify-center px-5 text-white hover:bg-transparent border-2 border-transparent hover:text-sky-400 ease-linear duration-200 hover:border-sky-400"
+              >
+                Tiếp tục mua sắm
+              </a>
+              <button
+                className="bg-amber-500 h-12 flex items-center justify-center px-5 text-white border-2 border-transparent hover:bg-transparent hover:text-amber-500 ease-linear duration-200 hover:border-amber-500 active:bg-green-400"
+                onClick={purchase}
+              >
+                Thanh toán
+              </button>
+            </div>
+
+            <div className="flex flex-col gap-5">
+              <span className="flex justify-between items-center w-80">
+                <p className="text-xl">Thành tiền</p>
+                <strong className="text-rose-600 text-2xl">
+                  {numberWithCommas(amount)}đ
+                </strong>
+              </span>
+              <span className="flex justify-between items-center w-80">
+                <p className="text-xl">Phí vận chuyển</p>
+                <strong className="text-rose-600 text-2xl">
+                  {numberWithCommas(shipCost)}đ
+                </strong>
+              </span>
+              <span className="flex justify-between items-center w-80">
+                <p className="text-xl">Tổng cộng</p>
+                <strong className="text-rose-600 text-2xl">
+                  {numberWithCommas(amount + shipCost)}đ
+                </strong>
+              </span>
+            </div>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className="flex w-full justify-center mt-20 gap-10 items-center">
+            <img src={emptyCart.src} alt="Giỏ hàng trống" />
+            <p className="text-xl leading-9">
+              Có vẻ như giỏ hàng của bạn còn trống. <br />
+              <strong className="text-2xl font-bold text-rose-500">
+                Hãy shopping đi nào!
+              </strong>
+            </p>
+          </div>
+          <div className="w-full flex items-center justify-center mt-10">
+            <a
+              href="/product"
+              className="bg-sky-400 py-5 px-10 text-center mx-auto"
+            >
+              Tiếp tục mua sắm
+            </a>
+          </div>
+        </>
+      )}
     </div>
   );
 };
