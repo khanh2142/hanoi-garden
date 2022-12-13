@@ -107,6 +107,23 @@ const DetailProduct = () => {
             ? data.name
             : "Không tìm thấy trang"
         }
+        description={data.name}
+        canonical={`https://hanoi-garden.vercel.app/cart/${data.id}`}
+        openGraph={{
+          url: `https://hanoi-garden.vercel.app/cart/${data.id}`,
+          title: data.name,
+          description: data.description,
+          images: [
+            {
+              url: data.image,
+              width: 256,
+              height: 256,
+              alt: data.name,
+              type: "image/*",
+            },
+          ],
+          siteName: "Hà Nội Garden",
+        }}
       ></NextSeo>
 
       <div className="mx-auto mt-20">
