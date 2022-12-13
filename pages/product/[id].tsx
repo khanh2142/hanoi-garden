@@ -143,7 +143,7 @@ const DetailProduct = () => {
             <div className="flex gap-4 mt-10">
               <img src={data.image} alt={data.name} />
               <div className="flex flex-col gap-4">
-                <h2 className="text-3xl font-bold">{data.name}</h2>
+                <h1 className="text-3xl font-bold">{data.name}</h1>
                 <desc className="italic leading-8">{data.description}</desc>
                 <p className="text-rose-600 text-2xl">
                   {numberWithCommas(data.price)} VND
