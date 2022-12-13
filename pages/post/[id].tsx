@@ -11,7 +11,7 @@ interface Post {
 }
 
 const DetailPost = () => {
-  const router = useRouter();
+  const router :any = useRouter();
 
   const { id } = router.query;
 
@@ -38,7 +38,7 @@ const DetailPost = () => {
 
   return (
     <div className="mt-20 flex flex-col gap-4 items-center">
-      <h3 className="text-center text-2xl text-rose-500 font-bold">
+      <h3 className="text-center text-2xl text-rose-500  font-bold">
         {data.title}
       </h3>
       <img src={data.image} alt={data.title} className="w-2/3 h-100" />
