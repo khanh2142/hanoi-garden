@@ -1,5 +1,6 @@
 import parse from "html-react-parser";
 import { NextSeo } from "next-seo";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import api from "../../data/posts";
@@ -39,8 +40,10 @@ const DetailPost = () => {
 
   return (
     <>
+      <Head>
+        <title>{data.title}</title>
+      </Head>
       <NextSeo
-        title={data.title}
         description={data.title}
         canonical={`https://hanoi-garden.vercel.app/post/${data.id}`}
         openGraph={{
