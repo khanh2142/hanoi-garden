@@ -60,23 +60,19 @@ const Post = () => {
         <div className="mb-10">
           <div className="flex gap-10">
             <div className="pl-12 h-10 text-center w-2/3 text-sm text-black-500 bg-rose-300 rounded-lg hover:bg-rose-200 hover:cursor-pointer duration-300 w-100">
-              <i></i>
-              MIỄN PHÍ GIAO HÀNG 63 TỈNH <br />
+              <h1>MIỄN PHÍ GIAO HÀNG 63 TỈNH</h1>
               <i className="italic text-xs">Free shipping (nội thành)</i>
             </div>
             <div className="h-10 text-center w-2/3 text-sm text-black-500 bg-rose-300 rounded-lg hover:bg-rose-200 hover:cursor-pointer duration-300 w-100">
-              <i></i>
-              PHỤC VỤ 24/24 <br />
+              <h1>PHỤC VỤ 24/24</h1>
               <i className="italic text-xs">24-7 service</i>
             </div>
             <div className="h-10 text-center w-2/3 text-sm text-black-500 bg-rose-300 rounded-lg hover:bg-rose-200 hover:cursor-pointer duration-300 w-100">
-              <i></i>
-              GIÁ ĐÃ GỒM 10% VAT <br />
+              <h1>GIÁ ĐÃ GỒM 10% VAT</h1>
               <i className="italic text-xs">Price include VAT</i>
             </div>
             <div className="h-10 text-center w-2/3 text-sm text-black-500 bg-rose-300 rounded-lg hover:bg-rose-100 hover:cursor-pointer duration-300 w-100">
-              <i></i>
-              GIAO NHANH TRONG 60 PHÚT <br />
+              <h1>GIAO NHANH TRONG 60 PHÚT</h1>
               <i className="italic text-xs">60 minutes quick delivery</i>
             </div>
           </div>
@@ -86,17 +82,17 @@ const Post = () => {
           <img
             className="h-52 w-1/3 rounded-3xl hover:scale-125 duration-500 hover:cursor-pointer"
             src="https://i.pinimg.com/564x/81/f4/ad/81f4adeb5ba24e415f4129168988d676.jpg"
-            alt=""
+            alt="Hà Nội Garden"
           />
           <img
             className="h-52 w-1/3 rounded-3xl hover:scale-125 duration-500 hover:cursor-pointer"
             src="https://i.pinimg.com/564x/67/3e/e3/673ee3d639b8bb2069cc8bbb7724bf0d.jpg"
-            alt=""
+            alt="Hà Nội Garden"
           />
           <img
             className="h-52 w-1/3 rounded-3xl hover:scale-125 duration-500 hover:cursor-pointer"
             src="https://i.pinimg.com/564x/0b/cf/81/0bcf8113b0fcbbb4b6a8f46983f6ec7f.jpg"
-            alt=""
+            alt="Hà Nội Garden"
           />
         </div>
       </div>
