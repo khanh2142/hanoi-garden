@@ -42,6 +42,10 @@ const DetailPost = () => {
     <>
       <Head>
         <title>{data.title}</title>
+        <meta
+          name="keywords"
+          content={`Hà Nội Garden, Hà Nội Garden Bài viết, Bài viết, ${data.title}`}
+        />
       </Head>
       <NextSeo
         description={data.title}
@@ -49,7 +53,7 @@ const DetailPost = () => {
         openGraph={{
           url: `https://hanoi-garden.vercel.app/post/${data.id}`,
           title: data.title,
-          description: data.desc,
+          description: data.title,
           images: [
             {
               url: data.image,

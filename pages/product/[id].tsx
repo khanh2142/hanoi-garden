@@ -105,6 +105,10 @@ const DetailProduct = () => {
       <Head>
         <meta property="og:title" content={data.name} key="title" />
         <meta property="og:title" title={data.name} key="title" />
+        <meta
+          name="keywords"
+          content={`Hà Nội Garden, Hà Nội Garden Sản phẩm, Sản phẩm, ${data.name}`}
+        />
       </Head>
       <NextSeo
         title={
