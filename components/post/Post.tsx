@@ -54,6 +54,47 @@ const Post = () => {
       </div>
       <div>
         <p className="text-center text-2xl font-bold text-rose-500 mb-10">
+          BẠN CÓ THỂ TÌM CHÚNG TÔI Ở ĐÂU
+        </p>
+        <div>
+          <li className="block float-left w-1/3">
+            <img
+              className="h-52 w-10/12 rounded-3xl mb-8 ml-10"
+              src="https://i.pinimg.com/564x/8c/da/2a/8cda2a4e933fa7bdf986901037843dc6.jpg"
+              alt=""
+            />
+            <p className="text-sm italic text-center">
+              Địa chỉ: 15 Nguyễn Lương Bằng, Phường Tân Phú, Quận 7 <br /> TP Hồ
+              Chí Minh <br /> Điện thoại: 0854 23 38 38 <br /> Email:
+              sale.emerflower@gmail.com
+            </p>
+          </li>
+          <li className="block float-left w-1/3">
+            <img
+              className="h-52 w-10/12 rounded-3xl mb-8 ml-10"
+              src="https://i.pinimg.com/564x/08/f0/33/08f03323bbca5bb09fb37ff63b3c73c4.jpg"
+              alt=""
+            />
+            <p className="text-sm italic text-center">
+              Địa chỉ: 125 Cầu Giấy, quận Cầu Giấy <br /> TP Hà Nội <br /> Điện
+              thoại: 386 72 72 01 <br /> Email: thegardencghanoi@gmail.com
+            </p>
+          </li>
+          <li className="block float-left w-1/3">
+            <img
+              className="h-52 w-10/12 rounded-3xl mb-8 ml-10"
+              src="https://i.pinimg.com/236x/0b/2b/7c/0b2b7c2b4cfe142394217fed6da38fa8.jpg"
+              alt=""
+            />
+            <p className="text-sm italic text-center">
+              Địa chỉ: 112 đường Hai Bà Trưng <br /> TP Hà Nội <br /> Điện
+              thoại: 0982 72 80 67 <br /> Email: thegardenhbthanoi@gmail.com
+            </p>
+          </li>
+        </div>
+      </div>
+      <div>
+        <p className="text-center text-2xl font-bold text-rose-500 mb-10">
           TẠI SAO BẠN NÊN DÙNG DỊCH VỤ CỦA CHÚNG TÔI?
         </p>
 
